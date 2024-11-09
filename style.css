@@ -8,15 +8,16 @@ body {
     margin: 0;
     background-color: #87CEEB; /* Light blue for sky */
     font-family: Arial, sans-serif;
+    overflow: hidden; /* Prevent scrolling */
 }
 
 /* Canvas styling */
 #gameCanvas {
-    border: 2px solid #2E8B57;
-    background-color: #ADD8E6;
+    border: 2px solid #2E8B57; /* Dark green border for jungle theme */
+    background-color: #ADD8E6; /* Light jungle green for ground */
     width: 800px; /* Fixed width */
     height: 600px; /* Fixed height */
-    max-width: 100%; /* Ensure it stays responsive if screen is smaller */
+    max-width: 100%; /* Ensures responsiveness on smaller screens */
     display: block;
     margin: 0 auto;
 }
