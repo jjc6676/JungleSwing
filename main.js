@@ -71,8 +71,9 @@ function gameLoop() {
     requestAnimationFrame(gameLoop); // Repeat the loop
 }
 
-// Event listener for jumping
-window.addEventListener('click', jump); // Makes the monkey jump on click
+// Event listeners for jumping (supporting both desktop and mobile)
+window.addEventListener('click', jump);        // For desktop clicks
+window.addEventListener('touchstart', jump);   // For mobile touch events
 
 // Start the game loop
 gameLoop();
