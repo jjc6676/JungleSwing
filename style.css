@@ -1,1 +1,24 @@
+/* General body styling */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #87CEEB; /* Light blue for sky */
+    font-family: Arial, sans-serif;
+}
 
+/* Canvas styling */
+#gameCanvas {
+    border: 2px solid #2E8B57; /* Dark green border for jungle theme */
+    background-color: #ADD8E6; /* Light jungle green for ground */
+}
+
+/* Score Display styling */
+#score {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #2E8B57; /* Dark green for jungle look */
+}
